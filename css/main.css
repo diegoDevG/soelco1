@@ -1,0 +1,173 @@
+nav ul a{
+    color: #00328F;
+}
+
+nav .nav-wrapper {    
+    background: #e4e4e4;
+}
+
+nav .button-collapse i {
+    color: #0065B3;
+}
+
+nav ul li{
+    width: 180px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {    
+    color: #00328F;    
+}
+
+.hero{    
+    background: #0065B3; 
+    background: -webkit-radial-gradient(bottom,#0096D6 12%,#00328F);
+    background: radial-gradient(at bottom,#0096D6 12%,#00328F);    
+    height: 70vh;
+    color: white;
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    flex-flow: column;
+}
+
+#titulo{
+    margin-bottom: 40px;
+}
+.hero h1{
+    font-size: 2rem;    
+    text-align: center;
+}
+
+.animation-container{
+    width: auto;
+    height: 35px;
+    overflow: hidden;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.animation-container ul{
+    margin: 0;
+}
+
+h1 ul{
+    /* height: 35px;     */
+    animation: cambiar 20s infinite;
+}
+
+.hero_marcas{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@keyframes cambiar{
+    0%{margin-top:0; }
+    3%{margin-top: 0;}
+
+    5%{margin-top: -35px;}
+    8%{margin-top: -35px;}
+
+    10%{margin-top: -60px;}
+    13%{margin-top: -60px;}
+
+    15%{margin-top: -100px;}
+    18%{margin-top: -100px;}
+
+    20%{margin-top: -130px;}
+    23%{margin-top: -130px;}
+
+    25%{margin-top: -165px;}
+    28%{margin-top: -165px;}
+
+    30%{margin-top: -195px;}
+    33%{margin-top: -195px;}
+
+    35%{margin-top: -225px;}
+    38%{margin-top: -225px;}
+
+    40%{margin-top: -265px;}
+    43%{margin-top: -265px;}
+
+    45%{margin-top: -295px;}
+    48%{margin-top: -295px;}
+
+    50%{margin-top: -325px;}
+    52%{margin-top: -325px;}
+
+    54%{margin-top: -360px;}
+    56%{margin-top: -360px;}
+
+    58%{margin-top: -325px;}
+    60%{margin-top: -325px;}
+
+    62%{margin-top: -295px;}
+    64%{margin-top: -295px;}
+
+    66%{margin-top: -265px;}
+    68%{margin-top: -265px;}
+
+    70%{margin-top: -225px;}
+    72%{margin-top: -225px;}
+
+    74%{margin-top: -195px;}
+    76%{margin-top: -195px;}
+
+    78%{margin-top: -165px;}
+    80%{margin-top: -165px;}
+
+    82%{margin-top: -130px;}
+    84%{margin-top: -130px;}
+
+    86%{margin-top: -100px;}
+    88%{margin-top: -100px;}
+
+    90%{margin-top: -60px;}
+    92%{margin-top: -60px;}
+
+    94%{margin-top: -35px;}
+    96%{margin-top: -35px;}
+
+    98%{margin-top: -0px;}
+    100%{margin-top: -0px;}
+}
+
+
+.call-to-action{
+    height: 80px;
+    background: #e4e4e4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.btn-large {    
+    background-color: #26a646;   
+}
+
+
+.slider-principal img{
+    width: 100%;
+    height: auto;
+}
+
+.ventas{
+    margin-top: 70px;
+}
+
+.card .card-image .card-title {
+    background-color: rgba(0, 0, 0, 0.69);
+    padding: 0;
+}
+iframe{
+    min-height: 800px;;
+}
+
+
+@media screen and max-width 400px {
+    .btn-large {    
+        background-color: #a62626;   
+    } 
+}
