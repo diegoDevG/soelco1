@@ -10,12 +10,16 @@ nav .button-collapse i {
     color: #0065B3;
 }
 
-nav ul li{
-    width: 180px;
+#productos-menu{
+    width: 155px;
 }
 
 .dropdown-content li>a, .dropdown-content li>span {    
     color: #00328F;    
+}
+
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons{
+    margin: 0;
 }
 
 .hero{    
@@ -133,7 +137,6 @@ h1 ul{
     100%{margin-top: -0px;}
 }
 
-
 .call-to-action{
     height: 80px;
     background: #e4e4e4;
@@ -142,11 +145,9 @@ h1 ul{
     align-items: center;
 }
 
-
 .btn-large {    
     background-color: #26a646;   
 }
-
 
 .slider-principal img{
     width: 100%;
@@ -178,92 +179,14 @@ h1 ul{
    
 }
 
-
-
-iframe{
+/* .form iframe{
     min-height: 800px;;
-}
+} */
 
 .social-icons{
     display: flex;
     justify-content: space-evenly;
     margin-top: 10px;
-}
-
-
-@media screen and (max-width: 600px) {   
-
-    @keyframes cambiar{
-        0%{margin-top:0; }
-        3%{margin-top: 0;}
-    
-        5%{margin-top: -30px;}
-        8%{margin-top: -30px;}
-    
-        10%{margin-top: -60px;}
-        13%{margin-top: -60px;}
-    
-        15%{margin-top: -90px;}
-        18%{margin-top: -90px;}
-    
-        20%{margin-top: -120px;}
-        23%{margin-top: -120px;}
-    
-        25%{margin-top: -150px;}
-        28%{margin-top: -150px;}
-    
-        30%{margin-top: -180px;}
-        33%{margin-top: -180px;}
-    
-        35%{margin-top: -210px;}
-        38%{margin-top: -210px;}
-    
-        40%{margin-top: -240px;}
-        43%{margin-top: -240px;}
-    
-        45%{margin-top: -270px;}
-        48%{margin-top: -270px;}
-    
-        50%{margin-top: -300px;}
-        52%{margin-top: -300px;}
-    
-        54%{margin-top: -330px;}
-        56%{margin-top: -330px;}
-    
-        58%{margin-top: -300px;}
-        60%{margin-top: -300px;}
-    
-        62%{margin-top: -270px;}
-        64%{margin-top: -270px;}
-    
-        66%{margin-top: -240px;}
-        68%{margin-top: -240px;}
-    
-        70%{margin-top: -210px;}
-        72%{margin-top: -210px;}
-    
-        74%{margin-top: -180px;}
-        76%{margin-top: -180px;}
-    
-        78%{margin-top: -150px;}
-        80%{margin-top: -150px;}
-    
-        82%{margin-top: -120px;}
-        84%{margin-top: -120px;}
-    
-        86%{margin-top: -90px;}
-        88%{margin-top: -90px;}
-    
-        90%{margin-top: -60px;}
-        92%{margin-top: -60px;}
-    
-        94%{margin-top: -30px;}
-        96%{margin-top: -30px;}
-    
-        98%{margin-top: -0px;}
-        100%{margin-top: -0px;}
-    }
-    
 }
 
 .slider .indicators .indicator-item {
@@ -280,12 +203,160 @@ iframe{
 
 .slider {
     width: 100%;
-    /* height: 400px; */
     margin: 0 auto;
 }
 
 .slider .indicators {
     bottom: 60px;
     z-index: 100;
-    /* text-align: left; */
 }
+
+@media screen and (max-width: 992px) {   
+    
+        @keyframes cambiar{
+            0%{margin-top:0; }
+            3%{margin-top: 0;}
+        
+            5%{margin-top: -30px;}
+            8%{margin-top: -30px;}
+        
+            10%{margin-top: -60px;}
+            13%{margin-top: -60px;}
+        
+            15%{margin-top: -90px;}
+            18%{margin-top: -90px;}
+        
+            20%{margin-top: -120px;}
+            23%{margin-top: -120px;}
+        
+            25%{margin-top: -150px;}
+            28%{margin-top: -150px;}
+        
+            30%{margin-top: -180px;}
+            33%{margin-top: -180px;}
+        
+            35%{margin-top: -210px;}
+            38%{margin-top: -210px;}
+        
+            40%{margin-top: -240px;}
+            43%{margin-top: -240px;}
+        
+            45%{margin-top: -270px;}
+            48%{margin-top: -270px;}
+        
+            50%{margin-top: -300px;}
+            52%{margin-top: -300px;}
+        
+            54%{margin-top: -330px;}
+            56%{margin-top: -330px;}
+        
+            58%{margin-top: -300px;}
+            60%{margin-top: -300px;}
+        
+            62%{margin-top: -270px;}
+            64%{margin-top: -270px;}
+        
+            66%{margin-top: -240px;}
+            68%{margin-top: -240px;}
+        
+            70%{margin-top: -210px;}
+            72%{margin-top: -210px;}
+        
+            74%{margin-top: -180px;}
+            76%{margin-top: -180px;}
+        
+            78%{margin-top: -150px;}
+            80%{margin-top: -150px;}
+        
+            82%{margin-top: -120px;}
+            84%{margin-top: -120px;}
+        
+            86%{margin-top: -90px;}
+            88%{margin-top: -90px;}
+        
+            90%{margin-top: -60px;}
+            92%{margin-top: -60px;}
+        
+            94%{margin-top: -30px;}
+            96%{margin-top: -30px;}
+        
+            98%{margin-top: -0px;}
+            100%{margin-top: -0px;}
+        }
+        
+    }
+
+
+    /* EStructura de paginas de producto */
+    .cabecera-muebles{
+        background-image: url(../img/muebles/oficina-principal.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+    }
+    .cabecera-colchones{
+        background-image: url(../img/colchones/domiluna-cabezote.jpg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .cabecera-electricos{
+        background-image: url(../img/electricos/borealbanner.jpg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .cabecera-construccion{
+        background-image: url(../img/construccion/baner.jpg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .cabecera-electro{
+        background-image: url(../img/electro/exibicionsoelco.jpg);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .contenido h1{
+        border-bottom: 1px solid #DCDCDB;
+        text-shadow: 0 0;
+        font-size: 2.2rem;
+        color: rgb(133, 130, 130);
+        /* padding-left: 100px; */
+    }
+
+    .contenido h2{
+        /* border-bottom: 1px solid #DCDCDB; */
+        text-shadow: 0 0;
+        font-size: 1.5rem;
+        color: rgb(97, 97, 97);
+        /* padding-left: 100px; */
+    }
+    .materialboxed{
+        width: 100%;
+    }
+    .btn-float{
+        width: 150px;
+        border-bottom-left-radius: 25px; 
+        position: fixed;
+        bottom:30%; 
+        right:2%; 
+    }
+
+    .container p{
+        text-align: justify;
+    }
+
+    strong{
+        color: rgb(91, 127, 206);
+        text-decoration: underline;
+    }
